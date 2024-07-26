@@ -12,7 +12,7 @@ class PredictPipeline:
         pass
 
 
-    def predict(self):
+    def predict(self,features):
         try:
              preprocessor_path=os.path.join("artifacts","preprocessor.pkl")
              model_path=os.path.join("artifacts","model.pkl")
