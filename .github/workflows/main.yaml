@@ -1,6 +1,4 @@
-
-
-name: Build and deploy container app to Azure Web App - testyoutubelive
+name: Build and push Image to ECR
 
 on:
   push:
