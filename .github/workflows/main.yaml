@@ -9,7 +9,7 @@ on:
 jobs:
   build-and-push-ecr-image:
     name: Build Image 
-    runs-on: 'ubuntu-latest'
+    runs-on: ubuntu-latest
     steps:
     - name: check out code
       uses: actions/checkout@v2
